@@ -22,7 +22,7 @@ const Form = () => {
       completed: false
     };
 
-
+//metodo post para conectar con el backend
     fetch(HOST_API + "/todo", {
       method: "POST",
       body: JSON.stringify(request),
