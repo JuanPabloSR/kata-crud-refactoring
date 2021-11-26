@@ -11,6 +11,9 @@ public class ToDoListModel {
     private String name;
     private Set<ToDoModel> items = new HashSet<>();
 
+
+
+
     public ToDoListModel(){
         super();
     }
@@ -19,6 +22,8 @@ public class ToDoListModel {
         this.name = name;
         this.items = items;
     }
+
+    
 
     public Long getId() {
         return id;
