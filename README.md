@@ -1,3 +1,16 @@
+Como usar el programa? 
+#1 para correr el backend ejecutar el comando  "mvn spring-boot:run" en la terminal
+#2 para iniciar el proyecto instalar yarn con "yarn install" (npi causa muchos errores)
+#3 ejecutar el comando "yarn start"
+
+
+
+
+
+
+
+
+
 # [Problema]
 
 Pueden ver los siguientes videos para poder comprender la base del código fuente dentro de este repositorio. 
