@@ -3,13 +3,13 @@ version: '3.7'
 services:
   frontend:
     build:
-      context: ./frontend
+      context: ./frontendReact
       args:
         HOST_API: http://localhost:8080/api/
     ports:
       - 80:80
     depends_on:
-      - backend
+      - crud
   backend:
     build: crud
     ports:
